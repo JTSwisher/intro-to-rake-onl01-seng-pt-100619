@@ -13,8 +13,8 @@ namespace :greeting do
   end 
 end 
 
-task :environment do 
-  require_relative './conifg/environment'
+task :environment do
+  require_relative './config/environment'
 end
 
 namespace :db do
