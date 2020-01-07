@@ -3,6 +3,9 @@ task :hello do
   puts "hello from Rake!"
 end
 
+task :environment do 
+  require_relative './conifg/environment'
+end 
 
 namespace :db do
   desc 'migrate changes to your database'
